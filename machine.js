@@ -6,7 +6,8 @@ var createId = function(ssnId, name, age, gender, phone, occupation, threatLevel
     this.name = name;
     this.age = age;
     this.gender = gender;
-    this.phone = occupation;
+    this.phone = phone;
+    this.occupation = occupation;
     this.threatLevel = threatLevel;
     this.knowMachine = knowMachine;
 }
